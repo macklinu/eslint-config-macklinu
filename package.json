@@ -1,0 +1,46 @@
+{
+  "name": "eslint-config-macklinu",
+  "description": "My personal ESLint config",
+  "version": "0.0.0-development",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Macklin Underdown",
+    "email": "macklinu@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/macklinu/eslint-config-macklinu/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/macklinu/eslint-config-macklinu.git"
+  },
+  "homepage": "https://github.com/macklinu/eslint-config-macklinu",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js",
+    "react.js"
+  ],
+  "scripts": {
+    "test": "exit 0",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
+  },
+  "peerDependencies": {
+    "eslint": ">=5"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "prettier": "^1.14.3",
+    "semantic-release": "^15.10.5",
+    "travis-deploy-once": "^5.0.9"
+  }
+}
