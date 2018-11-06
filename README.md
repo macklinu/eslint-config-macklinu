@@ -17,6 +17,7 @@ module.exports = {
   extends: [
     'eslint-config-macklinu',
     'eslint-config-macklinu/react', // optional for React project
+    'eslint-config-macklinu/jest', // optional for Jest
   ],
 }
 ```
