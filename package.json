@@ -21,7 +21,8 @@
   },
   "files": [
     "index.js",
-    "react.js"
+    "react.js",
+    "jest.js"
   ],
   "scripts": {
     "test": "exit 0",
