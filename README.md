@@ -15,9 +15,9 @@ In your ESLint config file in your repo (e.g. `.eslintrc.js`):
 ```js
 module.exports = {
   extends: [
-    'eslint-config-macklinu',
-    'eslint-config-macklinu/react', // optional for React project
-    'eslint-config-macklinu/jest', // optional for Jest
+    'macklinu',
+    'macklinu/react', // optional for React project
+    'macklinu/jest', // optional for Jest
   ],
 }
 ```
