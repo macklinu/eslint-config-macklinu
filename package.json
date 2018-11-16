@@ -21,8 +21,9 @@
   },
   "files": [
     "index.js",
+    "jest.js",
     "react.js",
-    "jest.js"
+    "typescript.js"
   ],
   "scripts": {
     "test": "exit 0",
@@ -37,7 +38,9 @@
     "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-jest": "^21.27.1",
     "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-react": "^7.11.1"
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-typescript": "^0.13.0",
+    "typescript-eslint-parser": "^21.0.1"
   },
   "devDependencies": {
     "eslint": "^5.7.0",
