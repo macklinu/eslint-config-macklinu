@@ -43,9 +43,9 @@
     "typescript-eslint-parser": "^21.0.1"
   },
   "devDependencies": {
-    "eslint": "^5.7.0",
-    "prettier": "^1.15.2",
-    "semantic-release": "^15.10.5",
-    "travis-deploy-once": "^5.0.9"
+    "eslint": "^5.13.0",
+    "prettier": "^1.16.4",
+    "semantic-release": "^15.13.3",
+    "travis-deploy-once": "^5.0.11"
   }
 }
