@@ -8,10 +8,11 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['prettier', 'react'],
+  plugins: ['prettier', 'react', 'react-hooks'],
   extends: ['prettier/react'],
   rules: {
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
+    'react-hooks/rules-of-hooks': 'error',
   },
 }
