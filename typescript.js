@@ -3,7 +3,8 @@ module.exports = {
   parserOptions: {
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint', 'prettier/@typescript-eslint'],
+  plugins: ['@typescript-eslint'],
+  extends: ['prettier/@typescript-eslint'],
   rules: {
     '@typescript-eslint/class-name-casing': 'error',
     '@typescript-eslint/interface-name-prefix': 'off',
