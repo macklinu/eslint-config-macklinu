@@ -5,7 +5,7 @@
 ## Installation
 
 ```
-yarn add eslint prettier eslint-config-macklinu
+yarn add eslint prettier eslint-config-macklinu --dev
 ```
 
 ## Usage
